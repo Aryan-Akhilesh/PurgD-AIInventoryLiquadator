@@ -1,77 +1,73 @@
-# purgD - AI-Powered Inventory Liquidation Platform
+# Welcome to your Lovable project
 
-purgD is a modern web application that helps businesses optimize their inventory liquidation through AI-powered promotional campaigns. The platform analyzes inventory data and generates targeted promotional content for slow-moving products.
+## Project info
 
-## Features
+**URL**: https://lovable.dev/projects/b40b33dc-22bf-4a74-b9e2-2d8733db1340
 
-- Upload inventory spreadsheets (XLSX, XLS, CSV)
-- Automatic identification of slow-moving products
-- AI-generated promotional campaigns
-- Suggested discount percentages
-- Real-time campaign generation progress
-- Modern, responsive UI
+## How can I edit this code?
 
-## Getting Started
+There are several ways of editing your application.
 
-### Prerequisites
+**Use Lovable**
 
-- Node.js (v16 or higher)
-- npm or yarn
-- OpenAI API key
+Simply visit the [Lovable Project](https://lovable.dev/projects/b40b33dc-22bf-4a74-b9e2-2d8733db1340) and start prompting.
 
-### Installation
+Changes made via Lovable will be committed automatically to this repo.
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/purgd.git
-cd purgd
-```
+**Use your preferred IDE**
 
-2. Install dependencies:
-```bash
-npm install
-```
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-3. Create a `.env` file in the root directory and add your OpenAI API key:
-```
-VITE_OPENAI_API_KEY=your_openai_api_key_here
-```
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-4. Start the development server:
-```bash
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-### Spreadsheet Format
+**Edit a file directly in GitHub**
 
-Your inventory spreadsheet should include the following columns:
-- SKU
-- Name
-- Quantity
-- Sales
-- Price
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## Usage
+**Use GitHub Codespaces**
 
-1. Upload your inventory spreadsheet using the drag-and-drop interface
-2. Review the uploaded products
-3. Click "Generate Promotional Campaigns" to create AI-powered campaigns
-4. Review and implement the generated campaigns
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## Technologies Used
+## What technologies are used for this project?
 
-- React
-- TypeScript
+This project is built with:
+
 - Vite
+- TypeScript
+- React
+- shadcn-ui
 - Tailwind CSS
-- OpenAI API
-- XLSX library
-- React Dropzone
 
-## License
+## How can I deploy this project?
 
-MIT
+Simply open [Lovable](https://lovable.dev/projects/b40b33dc-22bf-4a74-b9e2-2d8733db1340) and click on Share -> Publish.
 
-## Contributing
+## Can I connect a custom domain to my Lovable project?
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Yes it is!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
